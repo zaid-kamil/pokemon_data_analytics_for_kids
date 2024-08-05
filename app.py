@@ -32,7 +32,6 @@ elif choice == 'Visualize Data':
     st.header("Visualization") 
     cat_cols = df.select_dtypes(include='object').columns.tolist()
     num_cols = df.select_dtypes(exclude='object').columns.tolist()
-    cat_cols.remove('Name')
     num_cols.remove('Generation')
     num_cols.remove('Legendary')
     cat_cols.append('Generation')
