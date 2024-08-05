@@ -11,8 +11,9 @@ st.set_page_config(
 # load data
 @st.cache_data
 def load_data():
-    return pd.read_csv("Pokemon.csv", index_col='#')
-
+    df =  pd.read_csv("Pokemon.csv", index_col='#')
+    df = df.set_index('Name')
+    return df
 # ui intergration
 with st.spinner("loading dataset..."):
     df = load_data()
