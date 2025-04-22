@@ -1,6 +1,8 @@
 # Pokémon Data Analytics for Kids
 
 [video demo](https://www.youtube.com/watch?v=8sRjE_v8TBw)
+![image](https://github.com/user-attachments/assets/6845fc86-2b40-465f-a62d-35d14f6e1a49)
+
 
 Welcome to the **Pokémon Data Analytics for Kids** repository! This project is designed to introduce children to the exciting world of data analytics using Pokémon data. By leveraging Python and interactive tools, this repository aims to make learning fun and engaging for kids.
 
